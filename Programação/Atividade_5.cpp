@@ -23,9 +23,9 @@ int main (void){
 	
 	printf ("Digite o numero 3: ");
 	scanf ("%f",&num3);
+	fflush(stdin);
 	
-	
-	calculo1 = (2 * num1) * (num2/2);
+	calculo1 = 2*num1+(float)num2/2;
 	printf ("Calculo 1: %.2f\n",calculo1);
 	
 	calculo2 = 3 * num1 + num3;
