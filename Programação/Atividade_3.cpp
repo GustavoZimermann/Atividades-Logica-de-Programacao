@@ -7,10 +7,9 @@ int main (void){
 	printf("Digite a temperatura em Fahrenheit: ");
 	float temperaturaFahrenheit;
 	scanf("%f", &temperaturaFahrenheit);
+	fflush(stdin);
 	float temperaturaCelsius =  (temperaturaFahrenheit-32)*5/9;
 	printf("Temperatura Celsius %.2f",temperaturaCelsius);
-
+	fflush(stdin);
 	return 0;
 }
-
-	
