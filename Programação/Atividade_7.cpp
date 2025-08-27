@@ -2,13 +2,13 @@
 
 int main (void){
 	
-	int metros;
+	float metros;
 	
 	printf ("Metros: ");
-	scanf ("%i",&metros);
+	scanf ("%f",&metros);
 	fflush (stdin);
 	
-	printf ("Centrimetros: %.2i",metros * 100);
+	printf ("Centrimetros: %.2f",metros * 100);
 	
 	return 0;
 }
